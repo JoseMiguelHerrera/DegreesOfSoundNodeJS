@@ -1,0 +1,28 @@
+<section id="about" style="margin-top: 50px">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h3 style="color: white">You are connected to <em style="color: orange"> {{ username }} </em> by <em style="color: orange"> {{ edges }} </em>degree(s) of separation.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12" style="margin-top: 20px">
+                <ul class="timeline">
+                    {{#each data}}
+                    <li>
+                        <a target="_blank" href="{{ permalink_url }}">
+                            <div class="timeline-image animated fadeIn" data-balloon="Username: {{ username }} | Followers: {{ followers_count }} | Followings: {{ followings_count }}" data-balloon-pos="right">
+                                <img class="img-circle img-responsive" src="{{ avatar_url }}" alt="">
+                                <br>
+                                <br>
+                                <h4 style="color: #e67e22">\/</h4>
+                            </div>
+                        </a>
+                    </li>
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>

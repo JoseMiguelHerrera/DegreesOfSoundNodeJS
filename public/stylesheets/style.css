@@ -1,0 +1,169 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+header {
+  text-align: center;
+  background-image: url("wall.jpg");
+  background-position: center;
+  background-position: top; 
+  background-attachment: fixed;
+  color: white;
+}
+
+i.fa-circle {
+  color: #e67e22
+}
+
+i.contact{
+  color: #333
+}
+
+footer{
+  background: #eb9950;
+}
+
+div.footercontent{
+  margin-top: 12px;
+}
+
+
+header .container {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+header img {
+  display: block;
+  margin: 0 auto 20px;
+}
+
+header .intro-text .name {
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+header .intro-text .skills {
+  font-size: 1.25em;
+  font-weight: 300;
+}
+
+#soundcloud-btn {
+	margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  header .container {
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  header .intro-text .name {
+    font-size: 4.75em;
+  }
+  header .intro-text .skills {
+    font-size: 1.75em;
+  }
+  #soundcloud-btn {
+	margin-top: 40px;
+}
+}
+
+
+@media (min-width: 768px) {
+  .navbar-fixed-top {
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+  }
+  .navbar-fixed-top .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-fixed-top.navbar-shrink {
+    padding: 10px 0;
+  }
+  .navbar-fixed-top.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+
+.navbar {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.navbar a:focus {
+  outline: none;
+}
+
+.navbar .navbar-nav {
+  letter-spacing: 1px;
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+}
+
+.navbar-default .navbar-toggle {
+	color: white;
+	border-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+
+.navbar .navbar-nav li a:focus {
+  outline: none;
+}
+
+.navbar-default,
+.navbar-inverse {
+  border: none;
+  background-color: #e67e22;
+  border-color: #e67e22;
+}
+
+section {
+  padding: 100px 0;
+}
+
+section h2 {
+  margin: 0;
+  font-size: 3em;
+}
+
+@media (max-width: 767px) {
+  section {
+    padding: 75px 0;
+  }
+  section.first {
+    padding-top: 75px;
+  }
+}
+
+hr {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 400px;
+  margin: 25px auto 30px;
+}
+
+.img-centered {
+  display: block;
+  margin: auto auto;
+}
+
+#features, #contact {
+  background: #ecf0f1;
+}
