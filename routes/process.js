@@ -34,7 +34,7 @@ function coreAlg(req, res) {
 	    headers: { "Content-Type": "application/json" }
 	};
 	
-	//http://0.0.0.0:5000/api/entryPoint FOR LOCAL //http://DoSComputev2.mybluemix.net/api/entryPoint new bluemix
+	//http://0.0.0.0:5000/api/entryPoint FOR LOCAL //http://DoSComputev2.mybluemix.net/api/entryPoint LIVE
 	client.post("http://DoSComputev2.mybluemix.net/api/entryPoint", args, function (data, response) {
 		console.log(util.inspect(data, false, null));
 		res.send(data);
